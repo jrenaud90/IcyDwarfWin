@@ -471,11 +471,12 @@ int main(int argc, char *argv[]){
 	//-------------------------------------------------------------------
 
 	if (run_geochem == 1) {
-		printf("Running PHREEQC across the specified range of parameters...\n");
-		ParamExploration(os, path, Tmin, Tmax, Tstep,
-				Pmin, Pmax, Pstep,
-				pemin, pemax, pestep,
-				WRmin, WRmax, WRstep);
+		printf("PHREEQC Not Supported in this install of IcyDwarf")
+		// printf("Running PHREEQC across the specified range of parameters...\n");
+		// ParamExploration(os, path, Tmin, Tmax, Tstep,
+		// 		Pmin, Pmax, Pstep,
+		// 		pemin, pemax, pestep,
+		// 		WRmin, WRmax, WRstep);
 		printf("\n");
 	}
 
